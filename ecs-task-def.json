@@ -4,7 +4,7 @@
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
   "memory": "512",
-  "executionRoleArn": "arn:aws:iam::arn:aws:iam::997340362765:role/ecsTaskExecutionRole7:role/ecsTaskExecutionRole7",
+  "executionRoleArn": "arn:aws:iam::997340362765:role/ecsTaskExecutionRole7",
   "containerDefinitions": [
     {
       "name": "logger-container",
