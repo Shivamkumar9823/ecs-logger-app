@@ -1,0 +1,14 @@
+{
+  "family": "logger-task",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "256",
+  "memory": "512",
+  "containerDefinitions": [
+    {
+      "name": "logger-container",
+      "image": "placeholder-will-be-replaced-by-ci",
+      "essential": true
+    }
+  ]
+}
